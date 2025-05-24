@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Expérience immersive sur les océans par National Geographic",
   "type": "module",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "deploy": "gh-pages -d dist -b main --remote=origin"
-},
+  "homepage": "https://AbW444.github.io/page-interface-immersive",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
   "keywords": [
     "three.js",
     "gsap",

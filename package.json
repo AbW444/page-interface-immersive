@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:github": "vite build --base=/mondes-immerges/",
+    "build:github": "vite build --base=/page-interface-immersive/",
     "preview": "vite preview",
-    "deploy": "npm run build:github && gh-pages -d dist",
+    "deploy": "npm run build:github && gh-pages -d dist -r https://github.com/AbW444/page-interface-immersive.git",
     "predeploy": "npm run build:github"
   },
   "keywords": [
@@ -27,8 +27,8 @@
     "three": "^0.163.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "vite": "^5.1.4"
+    "vite": "^5.1.4",
+    "gh-pages": "^6.1.1"
   },
-  "homepage": "https://VOTRE-USERNAME.github.io/mondes-immerges"
+  "homepage": "https://AbW444.github.io/page-interface-immersive"
 }

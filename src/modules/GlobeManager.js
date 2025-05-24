@@ -234,7 +234,7 @@ export class GlobeManager {
         texture.minFilter = THREE.LinearFilter;
         texture.magFilter = THREE.LinearFilter;
         texture.format = THREE.RGBAFormat;
-        texture.encoding = THREE.sRGBEncoding;
+        texture.colorSpace = THREE.SRGBColorSpace;
         
         const depthGeometry = new THREE.SphereGeometry(1.99, 64, 64);
         const depthMaterial = new THREE.MeshBasicMaterial({
